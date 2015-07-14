@@ -24,4 +24,4 @@ echo "Using JAVA_OPTS: '$JAVA_OPTS'"
 echo "Using LOG  PATH: '$DIR/logs'"
 echo ""
 
-java -Duser.dir=$DIR $JAVA_OPTS -classpath $DIR/lib/*.jar org.ddpush.im.v1.node.IMServer 2>&1 >> $DIR/logs/ddpush.out &
+java -Duser.dir=$DIR $JAVA_OPTS -classpath $DIR/lib/*.jar org.ddpush.im.v1.node.IMServer 2>&1 >> $DIR/logs/ddpush.out

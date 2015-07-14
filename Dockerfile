@@ -1,13 +1,9 @@
+#MAINTAINER nb7123 nb7123@gmail.com
+
 FROM java:openjdk-8
 
-RUN wget -O /opt/ddpush-1.0.03.zip http://www.ddpush.net/dist/ddpush/ddpush-10/v1.0.03/bin/ddpush-1.0.03.zip
-
-RUN cd /opt/ && ls -l && unzip ddpush-1.0.03.zip
+ADD ddpush-1.0.03 /opt/ddpush-1.0.03
 WORKDIR /opt/ddpush-1.0.03
-
-RUN chmod a+x ./start.sh console.sh
-
-RUN sed -r 's/&([^&]*)$/ \1/' start.sh > start.sh
 
 # server push port
 EXPOSE 9999 
