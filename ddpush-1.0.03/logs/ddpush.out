@@ -1,0 +1,17 @@
+try load node stat file...
+working dir: /data/users/michael/ddpush/ddpush-1.0.03
+start connector...
+console listening port:9900
+udp connector port:9966
+NIO TCP Push Listener nio provider: sun.nio.ch.EPollSelectorProvider
+push listener port:9999
+udp connector recv buffer size:212992
+udp connector send buffer size:212992
+nio tcp connector port:9966
+NIO TCP Connector nio provider: sun.nio.ch.EPollSelectorProvider
+start 3 workers...
+server is up 
+cleaner quit
+saved 0 stat machines
+shut down server... 
+server is down, bye 
