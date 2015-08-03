@@ -9,9 +9,9 @@ ddpush 的Docker container
 
 usage:
 
-docker pull ddpush:1.0.03
+docker pull nb7123/ddpush:1.0.03
 
-  docker run --name ddpush-1.0.03 -p 9999:9999 -p 9966:9966 -p 9900:9900 ddpush:1.0.03
+  docker run --name ddpush-1.0.03 -p 9999:9999 -p 9966:9966 -p 9900:9900 -d nb7123/ddpush:1.0.03
   
   
   email: nb7123@gmail.com
